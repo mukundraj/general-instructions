@@ -1,0 +1,60 @@
+
+Slide-seq and Allen atlas registration instructions
+===================================================
+
+
+
+Slide seq data processing
+-------------------------
+
+
+
+Registration
+------------
+
+- Load images 
+- Goto side by side view, close python terminal if open, zoom image
+- Red - nissl, Yellow - slide seq
+- Start FGT fiducial registration vizard plugin
+
+- Rename fiducials to F/T
+- Enable multiple landmarks
+- Mark landmarks on F
+- Mark landmarks on T
+
+- Create a clone of from image and view in second viewer
+
+
+- Set result transform type to "Warping"
+- Set point matching method to "Manual"
+- Create registeration with name
+- Goto data mode and apply transform on nissl
+
+- Add landmarks or move landmarks as needed
+
+- Goto red view only view and zoom to fit images
+- Hide landmarks
+- Save scene (this step, and following steps in this section, needs to be carried out on same monitor+resolution)
+
+- Save red view at 2x zoom
+- close slicer (Control+W), reload scene
+- Change the image in red view, and save at 2x zoom
+
+Clean background using photoshop
+--------------------------------
+
+- Photoshop clean up
+
+Registration with Allen atlas images using same landmarks
+---------------------------------------------------------
+
+
+Across sets registration
+------------------------
+
+- Load all images
+- Manually transform nissl images
+- Save transforms for each set to align onto common coordinate framework
+- Apply nissl transform to corresponding pre and post images
+- Save transformed images
+

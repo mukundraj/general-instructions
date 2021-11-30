@@ -1,0 +1,7 @@
+
+
+Installing R
+------------
+
+- Install from installer rather than homebrew to avoid dependency conflicts while installing packages (e.g. ggrastr)
+- Install xquartz (can be from homebrew)

@@ -1,0 +1,4 @@
+
+Selecting an object and getting a white background
+--------------------------------------------------
+
